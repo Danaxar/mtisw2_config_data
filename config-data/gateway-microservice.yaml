@@ -33,5 +33,5 @@ eureka:
     register-with-eureka: true
     serviceUrl:
       defaultZone: ${EUREKA_URL:http://eureka-microservice:8761/eureka/}
-  # instance:
-  # hostname: localhost
+  instance:
+    hostname: localhost
