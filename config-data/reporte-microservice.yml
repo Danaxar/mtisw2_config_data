@@ -1,16 +1,3 @@
-spring:
-  application:
-    name: reporte-microservice
-  datasource:
-#     url: jdbc:mysql://localhost:3306/mtisw2_sueldos
-#     password: danielusach
-#     username: root
-    url: ${DB_URL}
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
-  jpa:
-    hibernate:
-      ddl-auto: create
 server:
   port: 8086
   forward-headers-strategy: framework
