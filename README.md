@@ -1,1 +1,0 @@
-# mtisw2_config_data
