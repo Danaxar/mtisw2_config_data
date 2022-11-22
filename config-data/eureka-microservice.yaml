@@ -1,11 +1,14 @@
+spring:
+  application:
+    name: eureka-microservice
 server:
   port: 8761
 eureka:
   instance:
     hostname: localhost
   server:
-    waitTimeInMsWhenSyncEmpty: 0 # Tiempo de espera para proxima sincronización
-  client: # No permite autoregistrarse como microservicio
+    waitTimeInMsWhenSyncEmpty: 0
+  client:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
